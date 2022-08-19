@@ -2,6 +2,8 @@
 
 #### By _**Tim Empey**_
 
+_https://timempey.github.io/mr-robogers-neighborhood/_
+
 #### _This webpage will take any number inputed and convert it to a string_
 
 ## Technologies Used
@@ -18,7 +20,7 @@ _The webpage will take any positive numeric value and convert it to a string. Re
 ## Setup/Installation Requirements
 
 * _Open up your terminal and navigate to the desired landing folder_
-* _In terminal enter, ' "git clone https://github.com/TimEmpey/Progamming-suggester '_
+* _In terminal enter, ' "git clone https://github.com/TimEmpey/mr-robogers-neighborhood '_
 * _In terminal enter 'code .' to open files in Visual Studio Code_
 * _In Visual Code Studio select the 'Go Live' option on the bottom task bar_
 
