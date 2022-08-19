@@ -28,12 +28,42 @@ _The webpage will take any positive numeric value and convert it to a string. Re
 
 <details>
 <summary>Tests</summary>
+  Describe: beepBoop()
+
+Test 1: Should return inputed number as an array
 <br>
-Test 1
+Code: 
 <br>
-Test 2
+const number = 8
 <br>
-Test 3
+beepBoop(number);
+<br>
+Expected Output: [8]
+<br>
+
+Test 2: Should return array from 0-inputed number
+<br>
+Code:
+<br>
+const number = 8
+<br>
+beepBoop(number);
+<br>
+Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+<br>
+
+Test 3: Should return array from 0-input but mark values containing 1,2, or 3 as pass, pass1, pass2
+<br>
+Code:
+<br>
+const number = 8
+<br>
+beepBoop(number);
+<br>
+Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+<br>
+'pass1' 'pass2' 'pass3'
+<br>
 </details>
 
 ## License
@@ -41,25 +71,3 @@ Test 3
 _[MIT](https://en.wikipedia.org/wiki/MIT_License)_
 
 Copyright (c) _2022_ _Timohy Empey_
-
-Describe: beepBoop()
-
-Test 1: Should return inputed number as an array
-Code: 
-const number = 8
-beepBoop(number);
-Expected Output: [8]
-
-Test 2: Should return array from 0-inputed number
-Code:
-const number = 8
-beepBoop(number);
-Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-
-Test 3: Should return array from 0-input but mark values containing 1,2, or 3 as pass, pass1, pass2
-Code
-const number = 8
-beepBoop(number);
-Expected Output: 
-[0, 1, 2, 3, 4, 5, 6, 7, 8]
-'pass1' 'pass2' 'pass3'

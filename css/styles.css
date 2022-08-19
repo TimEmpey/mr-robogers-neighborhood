@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-top: 30px;
+  color: white
+}
+
+p{
+  text-align: center;
+  color: white;
+}
+
+label{
+  color: black;
+  font-weight: bold;
+}
+
+.enterField{
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.result{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container{
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(95, 95, 255);
+  border-radius: 20px;
+}
+
