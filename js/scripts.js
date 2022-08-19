@@ -22,22 +22,20 @@ function beepBoop(number) {
     return newArray;
   }
   
-  
-  //return numArrayList;
 
 //* UI Logic
 
-// function handleSubmission() {
-//   event.preventDefault();
-//   const submitButton = document.getElementById("submit-button");
-//   const form = document.querySelector("form")
-//   document.getElementById("arrayInput").innerText=numArrayList
+function handleSubmission() {
+  event.preventDefault();
+  const submitButton = document.getElementById("submit-button");
+  const form = document.querySelector("form")
+  document.getElementById("arrayInput").innerText=numArrayList
   
-//   form.addEventListener("submit", handleSubmission);
-//   form.addEventListener("reset", resetForm)
+  form.addEventListener("submit", handleSubmission);
+  form.addEventListener("reset", resetForm)
 
-//   function handleSubmission(event){
-//     event.preventDefault();
-//   }
-// };
+  function handleSubmission(event){
+    event.preventDefault();
+  }
+};
 
