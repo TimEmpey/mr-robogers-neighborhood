@@ -1,5 +1,6 @@
 h1{
   text-align: center;
+  font-size: 70px;
 }
 
 h2{
@@ -15,6 +16,10 @@ p{
 label{
   color: black;
   font-weight: bold;
+}
+
+.jumbotron{
+  background-color: rgb(95, 95, 255);
 }
 
 .enterField{
@@ -33,5 +38,9 @@ label{
   padding: 30px;
   background-color: rgb(95, 95, 255);
   border-radius: 20px;
+}
+
+body{
+  background-color:rgb(198, 216, 251)
 }
 
