@@ -1,4 +1,8 @@
 function beepBoop(number) {
   numArray = [number];
-  return numArray;
+  const numArrayList = []
+  for (let i = 0; i <= number; i++) {
+    numArrayList.push(i)
+  }
+  return numArrayList;
 }
